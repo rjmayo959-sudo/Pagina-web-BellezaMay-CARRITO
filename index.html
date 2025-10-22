@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BellezaMay!</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="../imagenes/Logo.png" alt="Logo de BellezaMay!" class="header-logo" loading="lazy" onclick="location.href='index.html'">
+      <p class="logo">BellezaMay!</p>
+      <nav>
+        <a href="./productos.html" class="info-link">Productos</a>
+        <a href="./marcas.html" class="info-link">Marcas</a>
+        <a href="./promociones.html" class="info-link">Promociones</a>
+        <a href="./compraflash.html" class="info-link">Compra Flash</a>
+        <a href="#" class="cart-link" aria-label="Ver carrito">
+          <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+          <span class="cart-count" aria-hidden="true">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="categorias">
+    <marquee behavior= "alternate">¡Bienvenidos o BellezaMay! Tu destino de belleza y cuidado personal.</marquee>
+    <h1>Belleza que Inspira <br> Confianza que Conquista</h1>
+      </section>
+
+  <div id="dynamic-content" aria-live="polite" aria-hidden="true"></div>
+
+  <section id="Ver_Productos">
+    <div class="carta">
+      <img src="../imagenes/base_mousse.png" alt="Base Mousse" class="producto-img" loading="lazy">
+      <h3>Base Mousse</h3>
+      <p>¡Una base diferente, pero magnífica! La piel de porcelana sin necesidad de aplicar mucho producto ya es una realidad.</p>
+      <button data-product="base">Ver Producto</button>
+    </div>
+
+    <div class="carta">
+      <img src="../imagenes/paleta_de_sombras.jpg" alt="Paleta de sombras multicolor" class="producto-img" loading="lazy">
+      <h3>Paleta de Sombras</h3>
+      <p>¡Colores que inspiran! Nuestra paleta de sombras ofrece una gama vibrante y versátil para crear looks deslumbrantes en cualquier ocasión.</p>
+      <button data-product="paleta">Ver Producto</button>
+    </div>
+
+    <div class="carta">
+      <img src="../imagenes/labial-liquido-mate-red-love-435459.webp" alt="Labial Líquido Matte" class="producto-img" loading="lazy">
+      <h3>Labial Líquido Matte</h3>
+      <p>¡Labios irresistibles con acabado mate! Nuestro labial líquido ofrece un color intenso y duradero que te hará destacar en cualquier ocasión.</p>
+      <button data-product="labial">Ver Producto</button>
+    </div>
+  </section>
+
+<footer class="footer">
+  <p>Derechos Reservados © BellezaMay! 2025</p>
+        <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+       <a href="https://wa.me/573001112233" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+   </footer>
+  </body>
+</html>
